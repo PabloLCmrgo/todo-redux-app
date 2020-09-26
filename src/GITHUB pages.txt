@@ -18,3 +18,7 @@ Se vuelve a subir al repositorio, esta vez con la carpeta docs.
 Esa carpeta docs es la que está lista para el sitio web
 En GitHub/settings en el apartado   GitHub pages se selecciona Branch:master/Docs
 Save!
+
+
+NOTA: En la carpeta docs no olvidar comentar la etiqueta
+base href del index porque si no va a tronar 

@@ -1,0 +1,20 @@
+Para simular dar de alta una app se tiene que hacer los siguientes comandos
+
+para configurar git en el equipo
+1- git config --global user.name "[Pablo LCmrgo]"
+2- git config --global user.email "[pablocmrgo@gmail.com]"
+
+Se crea un repositorio en gitHub y se inicializa con git init
+y con los siguientes comandos se copian y pegan en la terminar para subir el repositorio a github
+git remote add origin https://github.com/PabloLCmrgo/todo-redux-app.git
+git branch -M master
+git push -u origin master
+
+en el proyecto de angular se lanza el siguiente comando para crear un repositorio para subir
+ng build --prod 
+se va a crear una carpeta dist, dentro estará la carpeta del proyecto.
+Para poderla subir se tiene que renombrar esa carpeta y se le pondrá docsy se moverá a la altura de la carpeta src
+Se vuelve a subir al repositorio, esta vez con la carpeta docs.
+Esa carpeta docs es la que está lista para el sitio web
+En GitHub/settings en el apartado   GitHub pages se selecciona Branch:master/Docs
+Save!
